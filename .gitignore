@@ -1,0 +1,37 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code (config local)
+.claude/settings.local.json
+
+# Secretos y credenciales
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Temporales y backups
+*.tmp
+*.bak
+*.log
+
+# Python / notebooks (por si se agregan ejemplos)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Terraform (por si se agregan ejemplos)
+.terraform/
+*.tfstate
+*.tfstate.*
